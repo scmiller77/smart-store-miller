@@ -17,3 +17,178 @@
 2025-03-23 21:34:20.347 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\BI_and_Analytics\smart-store-miller\data\raw\products_data.csv.
 2025-03-23 21:34:20.348 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\BI_and_Analytics\smart-store-miller\data\raw\sales_data.csv.
 2025-03-23 21:34:20.365 | INFO     | __main__:main:45 - Data preparation complete.
+2025-03-27 21:29:05.246 | INFO     | __main__:main:162 - ==================================
+2025-03-27 21:29:05.247 | INFO     | __main__:main:163 - STARTING prepare_customers_data.py
+2025-03-27 21:29:05.247 | INFO     | __main__:main:164 - ==================================
+2025-03-27 21:29:05.247 | INFO     | __main__:main:166 - Root project folder: C:\Projects\BI_and_Analytics\smart-store-miller
+2025-03-27 21:29:05.247 | INFO     | __main__:main:167 - data / raw folder: C:\Projects\BI_and_Analytics\smart-store-miller\data\raw
+2025-03-27 21:29:05.247 | INFO     | __main__:main:168 - data / prepared folder: C:\Projects\BI_and_Analytics\smart-store-miller\data\prepared
+2025-03-27 21:29:05.247 | INFO     | __main__:main:169 - scripts folder: C:\Projects\BI_and_Analytics\smart-store-miller\scripts
+2025-03-27 21:29:05.247 | INFO     | __main__:read_raw_data:66 - FUNCTION START: read_raw_data with file_name=customers_data.csv
+2025-03-27 21:29:05.247 | INFO     | __main__:read_raw_data:68 - Reading data from C:\Projects\BI_and_Analytics\smart-store-miller\data\raw\customers_data.csv
+2025-03-27 21:29:05.251 | INFO     | __main__:read_raw_data:70 - Loaded dataframe with 11 rows and 6 columns
+2025-03-27 21:29:05.251 | INFO     | __main__:main:178 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, Age, PreferredContact
+2025-03-27 21:29:05.252 | INFO     | __main__:main:179 - Initial dataframe shape: (11, 6)
+2025-03-27 21:29:05.253 | INFO     | __main__:remove_duplicates:98 - FUNCTION START: remove_duplicates with dataframe shape=(11, 6)
+2025-03-27 21:29:05.258 | INFO     | __main__:remove_duplicates:102 - Removed 0 duplicate rows
+2025-03-27 21:29:05.258 | INFO     | __main__:remove_duplicates:103 - 11 records remaining after removing duplicates.
+2025-03-27 21:29:05.258 | INFO     | __main__:handle_missing_values:117 - FUNCTION START: handle_missing_values with dataframe shape=(11, 6)
+2025-03-27 21:29:05.258 | INFO     | __main__:handle_missing_values:121 - Total missing values before handling: 0
+2025-03-27 21:29:05.259 | INFO     | __main__:handle_missing_values:130 - Total missing values after handling: 0
+2025-03-27 21:29:05.259 | INFO     | __main__:handle_missing_values:131 - 11 records remaining after handling missing values.
+2025-03-27 21:29:05.259 | INFO     | __main__:remove_outliers:145 - FUNCTION START: remove_outliers with dataframe shape=(11, 6)
+2025-03-27 21:29:05.259 | INFO     | __main__:remove_outliers:153 - Removed 0 outlier rows
+2025-03-27 21:29:05.259 | INFO     | __main__:remove_outliers:154 - 11 records remaining after removing outliers.
+2025-03-27 21:29:05.259 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=customers_data_prepared.csv, dataframe shape=(11, 6)
+2025-03-27 21:30:03.681 | INFO     | __main__:main:41 - STARTING logger.py
+2025-03-27 21:30:03.681 | INFO     | __main__:log_example:34 - This is an example info message.
+2025-03-27 21:30:03.681 | WARNING  | __main__:log_example:35 - This is an example warning message.
+2025-03-27 21:30:03.681 | ERROR    | __main__:log_example:36 - This is an example error message.
+2025-03-27 21:30:03.681 | INFO     | __main__:main:46 - View the log output at C:\Projects\BI_and_Analytics\smart-store-miller\logs\project_log.log
+2025-03-27 21:30:03.681 | INFO     | __main__:main:47 - EXITING logger.py.
+2025-03-27 21:30:12.887 | INFO     | __main__:main:162 - ==================================
+2025-03-27 21:30:12.887 | INFO     | __main__:main:163 - STARTING prepare_customers_data.py
+2025-03-27 21:30:12.887 | INFO     | __main__:main:164 - ==================================
+2025-03-27 21:30:12.888 | INFO     | __main__:main:166 - Root project folder: C:\Projects\BI_and_Analytics\smart-store-miller
+2025-03-27 21:30:12.888 | INFO     | __main__:main:167 - data / raw folder: C:\Projects\BI_and_Analytics\smart-store-miller\data\raw
+2025-03-27 21:30:12.888 | INFO     | __main__:main:168 - data / prepared folder: C:\Projects\BI_and_Analytics\smart-store-miller\data\prepared
+2025-03-27 21:30:12.888 | INFO     | __main__:main:169 - scripts folder: C:\Projects\BI_and_Analytics\smart-store-miller\scripts
+2025-03-27 21:30:12.888 | INFO     | __main__:read_raw_data:66 - FUNCTION START: read_raw_data with file_name=customers_data.csv
+2025-03-27 21:30:12.888 | INFO     | __main__:read_raw_data:68 - Reading data from C:\Projects\BI_and_Analytics\smart-store-miller\data\raw\customers_data.csv
+2025-03-27 21:30:12.891 | INFO     | __main__:read_raw_data:70 - Loaded dataframe with 11 rows and 6 columns
+2025-03-27 21:30:12.891 | INFO     | __main__:main:178 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, Age, PreferredContact
+2025-03-27 21:30:12.891 | INFO     | __main__:main:179 - Initial dataframe shape: (11, 6)
+2025-03-27 21:30:12.891 | INFO     | __main__:remove_duplicates:98 - FUNCTION START: remove_duplicates with dataframe shape=(11, 6)
+2025-03-27 21:30:12.892 | INFO     | __main__:remove_duplicates:102 - Removed 0 duplicate rows
+2025-03-27 21:30:12.892 | INFO     | __main__:remove_duplicates:103 - 11 records remaining after removing duplicates.
+2025-03-27 21:30:12.893 | INFO     | __main__:handle_missing_values:117 - FUNCTION START: handle_missing_values with dataframe shape=(11, 6)
+2025-03-27 21:30:12.893 | INFO     | __main__:handle_missing_values:121 - Total missing values before handling: 0
+2025-03-27 21:30:12.893 | INFO     | __main__:handle_missing_values:130 - Total missing values after handling: 0
+2025-03-27 21:30:12.893 | INFO     | __main__:handle_missing_values:131 - 11 records remaining after handling missing values.
+2025-03-27 21:30:12.893 | INFO     | __main__:remove_outliers:145 - FUNCTION START: remove_outliers with dataframe shape=(11, 6)
+2025-03-27 21:30:12.894 | INFO     | __main__:remove_outliers:153 - Removed 0 outlier rows
+2025-03-27 21:30:12.894 | INFO     | __main__:remove_outliers:154 - 11 records remaining after removing outliers.
+2025-03-27 21:30:12.894 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=customers_data_prepared.csv, dataframe shape=(11, 6)
+2025-03-27 21:30:44.225 | INFO     | __main__:main:162 - ==================================
+2025-03-27 21:30:44.225 | INFO     | __main__:main:163 - STARTING prepare_customers_data.py
+2025-03-27 21:30:44.225 | INFO     | __main__:main:164 - ==================================
+2025-03-27 21:30:44.225 | INFO     | __main__:main:166 - Root project folder: C:\Projects\BI_and_Analytics\smart-store-miller
+2025-03-27 21:30:44.225 | INFO     | __main__:main:167 - data / raw folder: C:\Projects\BI_and_Analytics\smart-store-miller\data\raw
+2025-03-27 21:30:44.225 | INFO     | __main__:main:168 - data / prepared folder: C:\Projects\BI_and_Analytics\smart-store-miller\data\prepared
+2025-03-27 21:30:44.226 | INFO     | __main__:main:169 - scripts folder: C:\Projects\BI_and_Analytics\smart-store-miller\scripts
+2025-03-27 21:30:44.226 | INFO     | __main__:read_raw_data:66 - FUNCTION START: read_raw_data with file_name=customers_data.csv
+2025-03-27 21:30:44.226 | INFO     | __main__:read_raw_data:68 - Reading data from C:\Projects\BI_and_Analytics\smart-store-miller\data\raw\customers_data.csv
+2025-03-27 21:30:44.228 | INFO     | __main__:read_raw_data:70 - Loaded dataframe with 11 rows and 6 columns
+2025-03-27 21:30:44.228 | INFO     | __main__:main:178 - Initial dataframe columns: CustomerID, Name, Region, JoinDate, Age, PreferredContact
+2025-03-27 21:30:44.228 | INFO     | __main__:main:179 - Initial dataframe shape: (11, 6)
+2025-03-27 21:30:44.229 | INFO     | __main__:remove_duplicates:98 - FUNCTION START: remove_duplicates with dataframe shape=(11, 6)
+2025-03-27 21:30:44.230 | INFO     | __main__:remove_duplicates:102 - Removed 0 duplicate rows
+2025-03-27 21:30:44.230 | INFO     | __main__:remove_duplicates:103 - 11 records remaining after removing duplicates.
+2025-03-27 21:30:44.230 | INFO     | __main__:handle_missing_values:117 - FUNCTION START: handle_missing_values with dataframe shape=(11, 6)
+2025-03-27 21:30:44.230 | INFO     | __main__:handle_missing_values:121 - Total missing values before handling: 0
+2025-03-27 21:30:44.230 | INFO     | __main__:handle_missing_values:130 - Total missing values after handling: 0
+2025-03-27 21:30:44.230 | INFO     | __main__:handle_missing_values:131 - 11 records remaining after handling missing values.
+2025-03-27 21:30:44.231 | INFO     | __main__:remove_outliers:145 - FUNCTION START: remove_outliers with dataframe shape=(11, 6)
+2025-03-27 21:30:44.231 | INFO     | __main__:remove_outliers:153 - Removed 0 outlier rows
+2025-03-27 21:30:44.231 | INFO     | __main__:remove_outliers:154 - 11 records remaining after removing outliers.
+2025-03-27 21:30:44.231 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=customers_data_prepared.csv, dataframe shape=(11, 6)
+2025-03-27 21:30:44.232 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Projects\BI_and_Analytics\smart-store-miller\data\prepared\customers_data_prepared.csv
+2025-03-27 21:30:44.232 | INFO     | __main__:main:202 - ==================================
+2025-03-27 21:30:44.232 | INFO     | __main__:main:203 - FINISHED prepare_customers_data.py
+2025-03-27 21:30:44.232 | INFO     | __main__:main:204 - ==================================
+2025-03-27 21:30:57.460 | INFO     | __main__:main:227 - ==================================
+2025-03-27 21:30:57.460 | INFO     | __main__:main:228 - STARTING prepare_products_data.py
+2025-03-27 21:30:57.460 | INFO     | __main__:main:229 - ==================================
+2025-03-27 21:30:57.460 | INFO     | __main__:main:231 - Root project folder: C:\Projects\BI_and_Analytics\smart-store-miller
+2025-03-27 21:30:57.460 | INFO     | __main__:main:232 - data / raw folder: C:\Projects\BI_and_Analytics\smart-store-miller\data\raw
+2025-03-27 21:30:57.461 | INFO     | __main__:main:233 - data / prepared folder: C:\Projects\BI_and_Analytics\smart-store-miller\data\prepared
+2025-03-27 21:30:57.461 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=products_data.csv
+2025-03-27 21:30:57.461 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\BI_and_Analytics\smart-store-miller\data\raw\products_data.csv
+2025-03-27 21:30:57.463 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 8 rows and 6 columns
+2025-03-27 21:30:57.464 | INFO     | __main__:main:242 - Initial dataframe columns: ProductID, ProductName, Category, UnitPrice, Stock, Supplier
+2025-03-27 21:30:57.464 | INFO     | __main__:main:243 - Initial dataframe shape: (8, 6)
+2025-03-27 21:30:57.464 | INFO     | __main__:main:252 - Cleaned column names: ProductID -> productid, ProductName -> productname, Category -> category, UnitPrice -> unitprice, Stock -> stock, Supplier -> supplier
+2025-03-27 21:30:57.464 | INFO     | __main__:remove_duplicates:96 - FUNCTION START: remove_duplicates with dataframe shape=(8, 6)
+2025-03-27 21:30:57.474 | INFO     | __main__:remove_duplicates:106 - Removed 0 duplicate rows
+2025-03-27 21:30:57.474 | INFO     | __main__:remove_duplicates:107 - 8 records remaining after removing duplicates.
+2025-03-27 21:30:57.475 | INFO     | __main__:handle_missing_values:121 - FUNCTION START: handle_missing_values with dataframe shape=(8, 6)
+2025-03-27 21:30:57.475 | INFO     | __main__:handle_missing_values:126 - Missing values by column before handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+stock          0
+supplier       0
+dtype: int64
+2025-03-27 21:30:57.476 | INFO     | __main__:handle_missing_values:140 - Missing values by column after handling:
+productid      0
+productname    0
+category       0
+unitprice      0
+stock          0
+supplier       0
+dtype: int64
+2025-03-27 21:30:57.476 | INFO     | __main__:handle_missing_values:141 - 8 records remaining after handling missing values.
+2025-03-27 21:30:57.476 | INFO     | __main__:standardize_formats:188 - FUNCTION START: standardize_formats with dataframe shape=(8, 6)
+2025-03-27 21:30:57.476 | INFO     | __main__:standardize_formats:198 - Completed standardizing formats
+2025-03-27 21:30:57.476 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(8, 6)
+2025-03-27 21:30:57.476 | INFO     | __main__:remove_outliers:174 - Removed 0 outlier rows
+2025-03-27 21:30:57.476 | INFO     | __main__:remove_outliers:175 - 8 records remaining after removing outliers.
+2025-03-27 21:30:57.476 | INFO     | __main__:validate_data:211 - FUNCTION START: validate_data with dataframe shape=(8, 6)
+2025-03-27 21:30:57.477 | INFO     | __main__:validate_data:220 - Data validation complete
+2025-03-27 21:30:57.477 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=products_data_prepared.csv, dataframe shape=(8, 6)
+2025-03-27 21:30:57.478 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Projects\BI_and_Analytics\smart-store-miller\data\prepared\products_data_prepared.csv
+2025-03-27 21:30:57.478 | INFO     | __main__:main:264 - ==================================
+2025-03-27 21:30:57.478 | INFO     | __main__:main:265 - FINISHED prepare_products_data.py
+2025-03-27 21:30:57.478 | INFO     | __main__:main:266 - ==================================
+2025-03-27 22:04:37.460 | INFO     | __main__:main:227 - ==================================
+2025-03-27 22:04:37.461 | INFO     | __main__:main:228 - STARTING prepare_sales_data.py
+2025-03-27 22:04:37.461 | INFO     | __main__:main:229 - ==================================
+2025-03-27 22:04:37.461 | INFO     | __main__:main:231 - Root project folder: C:\Projects\BI_and_Analytics\smart-store-miller
+2025-03-27 22:04:37.461 | INFO     | __main__:main:232 - data / raw folder: C:\Projects\BI_and_Analytics\smart-store-miller\data\raw
+2025-03-27 22:04:37.461 | INFO     | __main__:main:233 - data / prepared folder: C:\Projects\BI_and_Analytics\smart-store-miller\data\prepared
+2025-03-27 22:04:37.461 | INFO     | __main__:read_raw_data:59 - FUNCTION START: read_raw_data with file_name=sales_data.csv
+2025-03-27 22:04:37.462 | INFO     | __main__:read_raw_data:61 - Reading data from C:\Projects\BI_and_Analytics\smart-store-miller\data\raw\sales_data.csv
+2025-03-27 22:04:37.464 | INFO     | __main__:read_raw_data:63 - Loaded dataframe with 94 rows and 9 columns
+2025-03-27 22:04:37.464 | INFO     | __main__:main:242 - Initial dataframe columns: TransactionID, SaleDate, CustomerID, ProductID, StoreID, CampaignID, SaleAmount, DiscountPercent, PaymentType
+2025-03-27 22:04:37.464 | INFO     | __main__:main:243 - Initial dataframe shape: (94, 9)
+2025-03-27 22:04:37.465 | INFO     | __main__:main:252 - Cleaned column names: TransactionID -> transactionid, SaleDate -> saledate, CustomerID -> customerid, ProductID -> productid, StoreID -> storeid, CampaignID -> campaignid, SaleAmount -> saleamount, DiscountPercent -> discountpercent, PaymentType -> paymenttype
+2025-03-27 22:04:37.465 | INFO     | __main__:remove_duplicates:96 - FUNCTION START: remove_duplicates with dataframe shape=(94, 9)
+2025-03-27 22:04:37.466 | INFO     | __main__:remove_duplicates:106 - Removed 0 duplicate rows
+2025-03-27 22:04:37.466 | INFO     | __main__:remove_duplicates:107 - 94 records remaining after removing duplicates.
+2025-03-27 22:04:37.466 | INFO     | __main__:handle_missing_values:121 - FUNCTION START: handle_missing_values with dataframe shape=(94, 9)
+2025-03-27 22:04:37.467 | INFO     | __main__:handle_missing_values:126 - Missing values by column before handling:
+transactionid      0
+saledate           0
+customerid         0
+productid          0
+storeid            0
+campaignid         0
+saleamount         0
+discountpercent    0
+paymenttype        0
+dtype: int64
+2025-03-27 22:04:37.468 | INFO     | __main__:handle_missing_values:140 - Missing values by column after handling:
+transactionid      0
+saledate           0
+customerid         0
+productid          0
+storeid            0
+campaignid         0
+saleamount         0
+discountpercent    0
+paymenttype        0
+dtype: int64
+2025-03-27 22:04:37.468 | INFO     | __main__:handle_missing_values:141 - 94 records remaining after handling missing values.
+2025-03-27 22:04:37.468 | INFO     | __main__:standardize_formats:188 - FUNCTION START: standardize_formats with dataframe shape=(94, 9)
+2025-03-27 22:04:37.468 | INFO     | __main__:standardize_formats:198 - Completed standardizing formats
+2025-03-27 22:04:37.469 | INFO     | __main__:remove_outliers:155 - FUNCTION START: remove_outliers with dataframe shape=(94, 9)
+2025-03-27 22:04:37.469 | INFO     | __main__:remove_outliers:174 - Removed 0 outlier rows
+2025-03-27 22:04:37.469 | INFO     | __main__:remove_outliers:175 - 94 records remaining after removing outliers.
+2025-03-27 22:04:37.469 | INFO     | __main__:validate_data:211 - FUNCTION START: validate_data with dataframe shape=(94, 9)
+2025-03-27 22:04:37.469 | INFO     | __main__:validate_data:220 - Data validation complete
+2025-03-27 22:04:37.469 | INFO     | __main__:save_prepared_data:81 - FUNCTION START: save_prepared_data with file_name=sales_data_prepared.csv, dataframe shape=(94, 9)
+2025-03-27 22:04:37.471 | INFO     | __main__:save_prepared_data:84 - Data saved to C:\Projects\BI_and_Analytics\smart-store-miller\data\prepared\sales_data_prepared.csv
+2025-03-27 22:04:37.471 | INFO     | __main__:main:264 - ==================================
+2025-03-27 22:04:37.471 | INFO     | __main__:main:265 - FINISHED prepare_sales_data.py
+2025-03-27 22:04:37.471 | INFO     | __main__:main:266 - ==================================
