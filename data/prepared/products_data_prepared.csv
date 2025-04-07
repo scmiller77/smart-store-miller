@@ -1,4 +1,4 @@
-productid,productname,category,unitprice,stock,supplier
+product_id,product_name,category,unit_price_usd,stock,supplier
 101,laptop,Electronics,793.12,4,Apple
 102,hoodie,Clothing,39.1,7,DurableClothing
 103,cable,Electronics,22.76,8,EverthingElectronics

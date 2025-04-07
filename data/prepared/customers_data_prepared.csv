@@ -1,4 +1,4 @@
-CustomerID,Name,Region,JoinDate,Age,PreferredContact
+Customer_ID,Name,Region,Join_Date,Age,Preferred_Contact
 1001,William White,East,11/11/2021,45,Text
 1002,Wylie Coyote,East,2/14/2023,52,Email
 1003,Dan Brown,West,10/19/2023,64,Text

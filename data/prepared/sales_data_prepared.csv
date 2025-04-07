@@ -1,4 +1,4 @@
-transactionid,saledate,customerid,productid,storeid,campaignid,saleamount,discountpercent,paymenttype
+transaction_id,sale_date,customer_id,product_id,store_id,campaign_id,sale_amount_usd,discount_percent,payment_type
 550,1/6/2024,1008,102,404,0,39.1,20,Card
 551,1/6/2024,1009,105,403,0,19.78,0,Card
 552,1/16/2024,1004,107,404,0,335.1,0,Cash
