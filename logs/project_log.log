@@ -259,3 +259,8 @@ dtype: int64
 2025-04-06 23:12:16.432 | INFO     | __main__:create_sale_table:90 - sale table created.
 2025-04-06 23:12:16.432 | INFO     | __main__:create_dw:109 - Data warehouse created successfully.
 2025-04-06 23:12:16.432 | INFO     | __main__:main:123 - Data warehouse creation complete.
+2025-04-12 19:53:52.356 | INFO     | __main__:main:41 - Starting data preparation...
+2025-04-12 19:53:52.357 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\BI_and_Analytics\smart-store-miller\data\raw\customers_data.csv.
+2025-04-12 19:53:52.367 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\BI_and_Analytics\smart-store-miller\data\raw\products_data.csv.
+2025-04-12 19:53:52.371 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\BI_and_Analytics\smart-store-miller\data\raw\sales_data.csv.
+2025-04-12 19:53:52.378 | INFO     | __main__:main:45 - Data preparation complete.
