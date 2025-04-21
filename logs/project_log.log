@@ -264,3 +264,36 @@ dtype: int64
 2025-04-12 19:53:52.367 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\BI_and_Analytics\smart-store-miller\data\raw\products_data.csv.
 2025-04-12 19:53:52.371 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\BI_and_Analytics\smart-store-miller\data\raw\sales_data.csv.
 2025-04-12 19:53:52.378 | INFO     | __main__:main:45 - Data preparation complete.
+2025-04-20 15:33:27.048 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-20 15:33:27.055 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-20 15:33:27.065 | ERROR    | __main__:create_olap_cube:165 - Error creating OLAP cube: "Column(s) ['sale_id'] do not exist"
+2025-04-20 15:35:33.906 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-20 15:35:33.908 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-20 15:35:33.928 | ERROR    | __main__:create_olap_cube:165 - Error creating OLAP cube: 'Column not found: sale_id'
+2025-04-20 15:35:53.010 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-20 15:35:53.011 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-20 15:35:53.022 | INFO     | __main__:create_olap_cube:162 - OLAP cube created with dimensions: ['DayOfWeek', 'product_id', 'customer_id']
+2025-04-20 15:35:53.024 | INFO     | __main__:write_cube_to_csv:201 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-20 15:35:53.024 | INFO     | __main__:main:233 - OLAP Cubing process completed successfully.
+2025-04-20 15:35:53.024 | INFO     | __main__:main:234 - Please see outputs in data\olap_cubing_outputs
+2025-04-20 15:42:48.045 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-20 15:42:48.046 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-20 15:42:48.066 | INFO     | __main__:create_olap_cube:162 - OLAP cube created with dimensions: ['Quarter', 'product_id', 'customer_id']
+2025-04-20 15:42:48.068 | INFO     | __main__:write_cube_to_csv:201 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-20 15:42:48.068 | INFO     | __main__:main:234 - OLAP Cubing process completed successfully.
+2025-04-20 15:42:48.068 | INFO     | __main__:main:235 - Please see outputs in data\olap_cubing_outputs
+2025-04-20 17:35:42.318 | INFO     | __main__:main:113 - Starting SALES_LOW_REVENUE_QUARTER analysis...
+2025-04-20 17:35:42.332 | INFO     | __main__:load_olap_cube:50 - OLAP cube data successfully loaded from data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-20 17:35:42.335 | INFO     | __main__:analyze_sales_by_quarter:66 - Sales aggregated by quarter successfully.
+2025-04-20 17:35:42.335 | INFO     | __main__:identify_least_profitable_day:77 - Least profitable quarter: 4.0 with revenue $5853.54.
+2025-04-20 17:35:42.335 | INFO     | __main__:main:123 - Least profitable quarter: 4.0
+2025-04-20 17:35:42.335 | INFO     | __main__:main:124 - Close the Figure to complete this script.
+2025-04-20 17:35:42.594 | INFO     | __main__:visualize_sales_by_quarter:104 - Visualization saved to data\results\sales_by_quarter.png.
+2025-04-20 17:35:48.976 | INFO     | __main__:main:128 - Analysis and visualization completed successfully.
+2025-04-20 19:10:29.526 | INFO     | __main__:main:113 - Starting SALES_LOW_REVENUE_QUARTER analysis...
+2025-04-20 19:10:29.529 | INFO     | __main__:load_olap_cube:50 - OLAP cube data successfully loaded from data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-20 19:10:29.531 | INFO     | __main__:analyze_sales_by_quarter:66 - Sales aggregated by quarter successfully.
+2025-04-20 19:10:29.531 | INFO     | __main__:identify_least_profitable_day:77 - Least profitable quarter: 4.0 with revenue $5853.54.
+2025-04-20 19:10:29.531 | INFO     | __main__:main:123 - Least profitable quarter: 4.0
+2025-04-20 19:10:29.531 | INFO     | __main__:main:124 - Close the Figure to complete this script.
+2025-04-20 19:10:29.708 | INFO     | __main__:visualize_sales_by_quarter:104 - Visualization saved to data\results\sales_by_quarter.png.
